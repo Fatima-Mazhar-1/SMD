@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Finalassig" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#DEF8F8</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Finalassig" parent="Base.Theme.Finalassig" />
+</resources>
