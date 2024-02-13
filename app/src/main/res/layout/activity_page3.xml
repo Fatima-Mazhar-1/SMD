@@ -336,7 +336,7 @@
                 android:gravity="center"
                 android:src="@drawable/whiteroundsquare"
                 android:text="SignUp"
-                android:onClick="onLogin"
+                android:onClick="signup"
                 android:textColor="#757272"
                 android:textSize="20dp"
                 android:textStyle="bold"

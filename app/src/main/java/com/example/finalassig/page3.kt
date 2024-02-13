@@ -12,7 +12,7 @@ class page3 : AppCompatActivity() {
     }
 
     // Add this function to handle button click
-    fun onLogin(view: View) {
+    fun signup(view: View) {
         val intent = Intent(this, page4::class.java)
         view.context.startActivity(intent)
         finish()
