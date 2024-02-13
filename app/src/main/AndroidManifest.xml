@@ -13,6 +13,57 @@
         android:theme="@style/Theme.Finalassig"
         tools:targetApi="31">
         <activity
+            android:name=".page24"
+            android:exported="false" />
+        <activity
+            android:name=".page23"
+            android:exported="false" />
+        <activity
+            android:name=".page22"
+            android:exported="false" />
+        <activity
+            android:name=".page21"
+            android:exported="false" />
+        <activity
+            android:name=".page20"
+            android:exported="false" />
+        <activity
+            android:name=".page19"
+            android:exported="false" />
+        <activity
+            android:name=".page18"
+            android:exported="false" />
+        <activity
+            android:name=".page17"
+            android:exported="false" />
+        <activity
+            android:name=".page16"
+            android:exported="false" />
+        <activity
+            android:name=".page15"
+            android:exported="false" />
+        <activity
+            android:name=".page14"
+            android:exported="false" />
+        <activity
+            android:name=".page13"
+            android:exported="false" />
+        <activity
+            android:name=".page12"
+            android:exported="false" />
+        <activity
+            android:name=".page11"
+            android:exported="false" />
+        <activity
+            android:name=".page10"
+            android:exported="false" />
+        <activity
+            android:name=".page9"
+            android:exported="false" />
+        <activity
+            android:name=".page8"
+            android:exported="false" />
+        <activity
             android:name=".page7"
             android:exported="false" />
         <activity

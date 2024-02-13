@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#DDF7F7">
+        android:background="#DEF8F8">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -21,13 +21,14 @@
                 android:id="@+id/connect"
                 android:layout_width="268dp"
                 android:layout_height="71dp"
-                android:layout_marginTop="396dp"
+                android:layout_marginTop="392dp"
                 android:fontWeight="800"
                 android:text="connect. ask. learn."
-                android:textColor="#008096"
+                android:textAlignment="center"
+                android:textColor="#086057"
                 android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.748"
+                app:layout_constraintHorizontal_bias="0.608"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,10 +37,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
-                android:fontFamily="@font/robobold"
+                android:fontFamily="@font/salsa"
                 android:fontWeight="800"
                 android:text="mentor"
-                android:textColor="#B2216EF3"
+                android:textAlignment="center"
+                android:textColor="#0DBFCA"
                 android:textSize="60sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -54,24 +56,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
-                android:fontFamily="@font/robobold"
+                android:fontFamily="@font/salsa"
                 android:fontWeight="800"
                 android:text="me"
-                android:textColor="#F3F021"
+                android:textAlignment="center"
+                android:textColor="#FFA500"
                 android:textSize="60sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.95"
+                app:layout_constraintHorizontal_bias="0.89"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.419" />
+                app:layout_constraintVertical_bias="0.418" />
 
             <ImageView
                 android:id="@+id/semicircle"
-                android:layout_width="489dp"
-                android:layout_height="698dp"
-                android:layout_marginTop="1dp"
+                android:layout_width="460dp"
+                android:layout_height="842dp"
+                android:layout_marginTop="-110dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/semicricleshape"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -81,5 +84,5 @@
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-</LinearLayout>
+    </LinearLayout>
 </ScrollView>

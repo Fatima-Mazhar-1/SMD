@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page14">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#71C3CD">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="734dp">
+
+
+            <ImageView
+                android:id="@+id/sky1"
+                android:layout_width="423dp"
+                android:layout_height="728dp"
+                android:layout_marginTop="4dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/skybluesimplesqaure"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.547"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageButton
+                android:layout_width="63dp"
+                android:layout_height="67dp"
+                android:background="@null"
+                android:contentDescription="backbutton"
+                android:onClick="toSeven"
+                android:src="@drawable/baseline_arrow_back_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.123"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.038">
+
+            </ImageButton>
+
+
+
+            <TextView
+                android:id="@+id/book"
+                android:layout_width="306dp"
+                android:layout_height="62dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="My Profile"
+                android:textColor="#1E5A54"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.058" />
+
+            <TextView
+                android:id="@+id/comm"
+                android:layout_width="147dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Ali"
+                android:textColor="#51817C"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.335" />
+
+            <TextView
+                android:id="@+id/isl"
+                android:layout_width="147dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Islamabad"
+                android:textColor="#918C8C"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.462"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.371" />
+
+
+            <ImageView
+                android:id="@+id/loc"
+                android:layout_width="22dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="258dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/location"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.257"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="127dp"
+                android:layout_height="49dp"
+                android:background="@drawable/yellow_round_square"
+                android:gravity="center"
+                android:onClick="toEleven"
+                android:paddingEnd="10dp"
+                android:text="Booked Sessions"
+                android:textAlignment="center"
+                android:textColor="#157177"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.549"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.414" />
+
+            <ImageView
+                android:id="@+id/johnpic"
+                android:layout_width="97dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="136dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/page21sqaures"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/bluesq2"
+                android:layout_width="97dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="84dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/page21sqaures"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.359"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/bluesqthree"
+                android:layout_width="97dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="136dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/page21sqaures"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.668"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/bluesq4"
+                android:layout_width="99dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="84dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/page21sqaures"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.98"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/skybluesq1"
+                android:layout_width="99dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="84dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/page21skyblue"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.673"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/skybluesq2"
+                android:layout_width="99dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="136dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/page21skyblue"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.361"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/skybluesq3"
+                android:layout_width="99dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="136dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/page21skyblue"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.98"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/skybluesq4"
+                android:layout_width="99dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="84dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/page21skyblue"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.044"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/symbol"
+                android:layout_width="118dp"
+                android:layout_height="87dp"
+                android:layout_marginTop="148dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/symbolgame"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.238"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/greencrc1"
+                android:layout_width="35dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="188dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/green_cirlce"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.406"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/greencrc2"
+                android:layout_width="46dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="168dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/green_cirlce"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.893"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/pen"
+                android:layout_width="38dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="183dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pen"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.89"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/dot"
+                android:layout_width="38dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="45dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dots"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.922"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/pentwo"
+                android:layout_width="27dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="204dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pen"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.406"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="32dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/arialp4"
+                android:fontWeight="800"
+                android:text="Favorite Sessions"
+                android:textColor="#124944"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.151"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.432" />
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="32dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/arialp4"
+                android:fontWeight="800"
+                android:text="My Reviews"
+                android:textColor="#124944"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.151"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.739" />
+
+            <ImageView
+                android:id="@+id/card1"
+                android:layout_width="512dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="352dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cardp21"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/card2"
+                android:layout_width="363dp"
+                android:layout_height="131dp"
+                android:layout_marginTop="568dp"
+                android:scaleType="fitCenter"
+                android:background="#DEF8F8"
+                android:src="@drawable/p21card2"
+                android:contentDescription="button"
+                android:onClick="bluecard"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+</ScrollView>

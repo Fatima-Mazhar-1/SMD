@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page13">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#DDF7F7">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="734dp">
+
+            <ImageView
+                android:id="@+id/sq2"
+                android:layout_width="412dp"
+                android:layout_height="197dp"
+                android:layout_marginTop="4dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bluesimplesquare"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageButton
+                android:layout_width="63dp"
+                android:layout_height="67dp"
+                android:background="@null"
+                android:onClick="toSeven"
+                android:src="@drawable/baseline_arrow_back_24"
+                android:contentDescription="backbutton"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.043">
+
+            </ImageButton>
+            <ImageView
+                android:id="@+id/ypic"
+                android:layout_width="78dp"
+                android:layout_height="73dp"
+                android:layout_marginTop="72dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/page10pic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.945"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/book"
+                android:layout_width="306dp"
+                android:layout_height="62dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Book your session"
+                android:textColor="#1E5A54"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.847"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.063" />
+
+            <TextView
+                android:id="@+id/john"
+                android:layout_width="328dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="John Cooper"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.131" />
+
+
+            <TextView
+                android:id="@+id/num"
+                android:layout_width="82dp"
+                android:layout_height="62dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="4.8"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.418"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.199" />
+
+            <ImageView
+                android:id="@+id/sq1"
+                android:layout_width="354dp"
+                android:layout_height="99dp"
+                android:layout_marginTop="203dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/roundsqaurelower"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:layout_width="156dp"
+                android:layout_height="49dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/arialp4"
+                android:fontWeight="800"
+                android:text="$1500/Session"
+                android:textColor="#FDD835"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.325"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.262" />
+
+            <ImageView
+                android:id="@+id/yellowstar"
+                android:layout_width="48dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="128dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/yellowstar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.247"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/crc1"
+                android:layout_width="48dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="216dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/yellow_cirlce"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.732"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/crc2"
+                android:layout_width="48dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="216dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/yellow_cirlce"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.865"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/crc3"
+                android:layout_width="48dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="216dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/yellow_cirlce"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/msg"
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="224dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/megcloud"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.716"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/phn"
+                android:layout_width="20dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="224dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/phone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.838"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/vid"
+                android:layout_width="19dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="224dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/video"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.961"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ScrollView
+                android:layout_width="369dp"
+                android:layout_height="246dp"
+                android:fillViewport="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.647">
+
+                <CalendarView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/timeslots"
+                android:layout_width="306dp"
+                android:layout_height="62dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Available Time Slots"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.304"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.836" />
+
+            <ImageView
+                android:id="@+id/grey1"
+                android:layout_width="113dp"
+                android:layout_height="33dp"
+                android:layout_marginTop="596dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/lightgreyroundsquare"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.056"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/grey2"
+                android:layout_width="113dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="596dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/lightgreyroundsquare"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/green1"
+                android:layout_width="113dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="596dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/greenroundsquare"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.537"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/time1"
+                android:layout_width="306dp"
+                android:layout_height="62dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="10.00 AM"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.9" />
+
+            <TextView
+                android:id="@+id/time2"
+                android:layout_width="87dp"
+                android:layout_height="64dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="11.00 AM"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.552"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.907" />
+
+            <TextView
+                android:id="@+id/time3"
+                android:layout_width="87dp"
+                android:layout_height="64dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="12.00 PM"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.969"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.907" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button"
+                android:layout_width="269dp"
+                android:layout_height="58dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/greenroundsquare"
+                android:onClick="bookapp"
+                android:text="Book an Appointment"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.633"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

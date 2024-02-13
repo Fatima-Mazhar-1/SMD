@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page20">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#DDF7F7">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="734dp">
+
+
+            <ImageView
+                android:id="@+id/sq2"
+                android:layout_width="412dp"
+                android:layout_height="506dp"
+                android:layout_marginTop="-1dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/darkgreycamera"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/johnpic"
+                android:layout_width="109dp"
+                android:layout_height="82dp"
+                android:layout_marginTop="136dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/johngrey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.546"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/john"
+                android:layout_width="149dp"
+                android:layout_height="56dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="John Cooper"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.58"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.081" />
+
+            <TextView
+                android:id="@+id/slm"
+                android:layout_width="97dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="50:08"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.589"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.141" />
+
+            <ImageView
+                android:id="@+id/greencrc1"
+                android:layout_width="87dp"
+                android:layout_height="94dp"
+                android:layout_marginTop="544dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/green_cirlce"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.15"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/greencrc2"
+                android:layout_width="93dp"
+                android:layout_height="82dp"
+                android:layout_marginTop="552dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/green_cirlce"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.57"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/greencrc3"
+                android:layout_width="86dp"
+                android:layout_height="91dp"
+                android:layout_marginTop="548dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/green_cirlce"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.89"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/redcrc1"
+                android:layout_width="81dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="636dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/red_cirlce"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.57"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/cross"
+                android:layout_width="45dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="652dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/white_cross"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.56"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/novideo"
+                android:layout_width="51dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="556dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/speaker"
+                android:contentDescription="sp"
+                android:onClick="speaker"
+                android:background="#157177"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.56"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/nomicro"
+                android:layout_width="45dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="556dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/nomic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.19"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/flp"
+                android:layout_width="25dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="570dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pause"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.83"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/line"
+                android:layout_width="361dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="516dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hori"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.55"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

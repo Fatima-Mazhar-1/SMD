@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#DEF8F8">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="734dp">
+
+
+            <TextView
+                android:id="@+id/expertise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="412dp"
+                android:text="My expertise Include"
+                android:textColor="#124944"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.277"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/sq1"
+                android:layout_width="416dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="224dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/roundsqaurelower"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/sq2"
+                android:layout_width="418dp"
+                android:layout_height="153dp"
+                android:layout_marginTop="-1dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bluesimplesquare"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/sq3"
+                android:layout_width="532dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="154dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bluesimplesquare"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.033"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageButton
+                android:layout_width="63dp"
+                android:layout_height="67dp"
+                android:background="@null"
+                android:onClick="toSeven"
+                android:src="@drawable/baseline_arrow_back_24"
+                android:contentDescription="backbutton"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.043">
+
+            </ImageButton>
+
+            <TextView
+                android:id="@+id/john"
+                android:layout_width="339dp"
+                android:layout_height="74dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Hi, I’m                         John Cooper"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.944"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.109" />
+
+            <TextView
+                android:id="@+id/uxdesign"
+                android:layout_width="223dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="UX Designer at              Google"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.319"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.243" />
+
+
+            <ImageView
+                android:id="@+id/yellowstar"
+                android:layout_width="34dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="168dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/yellowstar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.75"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/ypic"
+                android:layout_width="78dp"
+                android:layout_height="73dp"
+                android:layout_marginTop="72dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/page10pic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.945"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/num"
+                android:layout_width="82dp"
+                android:layout_height="62dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="4.8"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.25" />
+
+            <TextView
+                android:id="@+id/aboutme"
+                android:layout_width="223dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="About me"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.292"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.33" />
+
+            <TextView
+                android:id="@+id/descp"
+                android:layout_width="300dp"
+                android:layout_height="129dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="I am a passionate UX designer at Google with a focus on
+creating user-centric and intuitive interfaces. With 10 years of
+experience, I have had the opportunity to work on diverse
+projects that have shaped my understanding of design
+principles and user experience."
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.531"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.421" />
+
+            <ImageView
+                android:id="@+id/darkblue"
+                android:layout_width="140dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="452dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/darkbluep10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.26"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/darkblue1"
+                android:layout_width="150dp"
+                android:layout_height="21dp"
+                android:layout_marginTop="452dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/darkbluep10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.957"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/darkblue2"
+                android:layout_width="140dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="492dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/darkbluep10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.257"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/darkblue3"
+                android:layout_width="120dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="492dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/darkbluep10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.85"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/ca"
+                android:layout_width="223dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Career Advice"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.67" />
+
+            <TextView
+                android:id="@+id/ued"
+                android:layout_width="140dp"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="User Experience Design"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.94"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.636" />
+
+            <TextView
+                android:id="@+id/ls"
+                android:layout_width="165dp"
+                android:layout_height="23dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Leadership"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.41"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.693" />
+
+            <TextView
+                android:id="@+id/pt"
+                android:layout_width="138dp"
+                android:layout_height="32dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Prototyping"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.699" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sesionbook"
+                android:layout_width="269dp"
+                android:layout_height="58dp"
+                android:layout_marginBottom="48dp"
+                android:background="@drawable/greenroundsquare"
+                android:onClick="book"
+                android:text="Book a Session"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.633"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+            <TextView
+                android:layout_width="127dp"
+                android:layout_height="49dp"
+                android:background="@drawable/yellow_round_square"
+                android:drawableEnd="@drawable/review"
+                android:gravity="center"
+                android:onClick="toEleven"
+                android:paddingEnd="10dp"
+                android:text="Drop a review"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.316"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.817" />
+
+            <TextView
+                android:layout_width="127dp"
+                android:layout_height="49dp"
+                android:background="@drawable/yellow_round_square"
+                android:drawableEnd="@drawable/commu"
+                android:gravity="center"
+                android:onClick="toEleven"
+                android:paddingEnd="10dp"
+                android:text="Join community"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.873"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.818" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+</ScrollView>

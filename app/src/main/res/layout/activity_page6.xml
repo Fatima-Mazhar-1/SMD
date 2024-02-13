@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#DDF7F7">
+        android:background="#DEF8F8">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -24,15 +24,15 @@
                 android:fontFamily="@font/robobold"
                 android:fontWeight="800"
                 android:text="Reset Password?"
-                android:textColor="#1E5A54"
+                android:textColor="#157177"
                 android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.125"
+                app:layout_constraintHorizontal_bias="0.199"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.089" />
+                app:layout_constraintVertical_bias="0.082" />
 
             <TextView
                 android:layout_width="339dp"
@@ -46,10 +46,10 @@ password. Type something you will       remember!"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintHorizontal_bias="0.583"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.162" />
+                app:layout_constraintVertical_bias="0.184" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -63,10 +63,10 @@ password. Type something you will       remember!"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.086"
+                app:layout_constraintHorizontal_bias="0.218"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.392" />
+                app:layout_constraintVertical_bias="0.374" />
 
             <EditText
                 android:id="@+id/password"
@@ -76,6 +76,7 @@ password. Type something you will       remember!"
                 android:background="@drawable/whiteroundsquare"
                 android:gravity="left|center_vertical"
                 android:hint="Enter New Password"
+                android:paddingStart="25dp"
                 android:textColor="#757272"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.626"
@@ -93,13 +94,13 @@ password. Type something you will       remember!"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold"
+
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.093"
+                app:layout_constraintHorizontal_bias="0.218"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.562" />
-
+                app:layout_constraintVertical_bias="0.548" />
 
             <EditText
                 android:id="@+id/email"
@@ -109,6 +110,7 @@ password. Type something you will       remember!"
                 android:background="@drawable/whiteroundsquare"
                 android:gravity="left|center_vertical"
                 android:hint="Re-enter Password"
+                android:paddingStart="25dp"
                 android:textColor="#757272"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.626"
@@ -121,6 +123,7 @@ password. Type something you will       remember!"
                 android:layout_height="50dp"
                 android:layout_marginTop="500dp"
                 android:background="#DDF7F7"
+                android:onClick="reset"
                 android:contentDescription="verification"
                 android:src="@drawable/greenroundsquare"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -160,16 +163,40 @@ password. Type something you will       remember!"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.897" />
 
-            <ImageView
-                android:id="@+id/back"
-                android:layout_width="47dp"
-                android:layout_height="62dp"
-                android:layout_marginTop="32dp"
-                android:layout_marginEnd="296dp"
-                android:scaleType="fitCenter"
+            <ImageButton
+                android:layout_width="63dp"
+                android:layout_height="67dp"
+                android:background="@null"
+                android:onClick="toSeven"
                 android:src="@drawable/baseline_arrow_back_24"
+                android:contentDescription="backbutton"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.043">
+
+            </ImageButton>
+
+            <TextView
+                android:id="@+id/buttonPassword"
+                android:layout_width="137dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Login"
+                android:textColor="#157177"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.843"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.835" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
