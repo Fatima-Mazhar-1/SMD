@@ -15,4 +15,5 @@ class page4 : AppCompatActivity() {
         view.context.startActivity(intent)
         finish()
     }
+
 }

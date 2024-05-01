@@ -82,35 +82,19 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageButton
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/imageButton"
-                android:layout_width="243dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="388dp"
-                android:background="#DEF8F8"
-                android:onClick="send"
-                android:contentDescription="verification"
-                android:src="@drawable/greenroundsquare"
+                android:layout_width="172dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="392dp"
+                android:background="@drawable/greenroundsquare"
+                android:text="Send"
+                android:textColor="@color/white"
+                android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.41"
+                app:layout_constraintHorizontal_bias="0.648"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/send"
-                android:layout_width="160dp"
-                android:layout_height="87dp"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:text="Send"
-                android:textColor="#FFFFFF"
-                android:textSize="25sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.629"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.622" />
 
             <TextView
                 android:id="@+id/rememberpassword"
@@ -123,16 +107,16 @@
                 android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.656"
+                app:layout_constraintHorizontal_bias="0.906"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.741" />
+                app:layout_constraintVertical_bias="0.738" />
 
             <ImageButton
                 android:layout_width="63dp"
                 android:layout_height="67dp"
                 android:background="@null"
-                android:onClick="toSeven"
+                android:onClick="back"
                 android:src="@drawable/baseline_arrow_back_24"
                 android:contentDescription="backbutton"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -154,16 +138,17 @@
                 android:layout_centerHorizontal="true"
                 android:clickable="true"
                 android:focusable="true"
+                android:onClick="goTo2ndActivity"
                 android:text="Login"
                 android:textColor="#157177"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.908"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.689" />
+                app:layout_constraintVertical_bias="0.685" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

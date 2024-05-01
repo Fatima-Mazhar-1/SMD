@@ -1082,19 +1082,6 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.85" />
 
-                    <ImageView
-                        android:id="@+id/search"
-                        android:layout_width="403dp"
-                        android:layout_height="55dp"
-                        android:layout_marginTop="692dp"
-                        android:background="#DDF7F7"
-                        android:contentDescription="greyroundsqaure"
-                        android:src="@drawable/searchbar"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="1.0"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
 
 
 

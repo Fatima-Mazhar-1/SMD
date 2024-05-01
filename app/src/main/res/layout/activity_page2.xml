@@ -128,10 +128,11 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.651" />
 
+
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="332dp"
-                android:layout_height="97dp"
+                android:layout_height="130dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:text="Don't have an acoount?"
@@ -139,24 +140,7 @@
                 android:textSize="13sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.556"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="parent"
-                app:layout_constraintVertical_bias="0.494" />
-
-
-            <TextView
-                android:id="@+id/pass"
-                android:layout_width="332dp"
-                android:layout_height="97dp"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:text="Forgot Your Password ?"
-                android:textColor="#FFFFFF"
-                android:textSize="13sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.683"
+                app:layout_constraintHorizontal_bias="0.99"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="parent"
                 app:layout_constraintVertical_bias="1.0" />
@@ -164,7 +148,7 @@
             <EditText
                 android:id="@+id/email"
                 android:layout_width="345dp"
-                android:layout_height="50dp"
+                android:layout_height="55dp"
                 android:layout_marginTop="388dp"
                 android:background="@drawable/whiteroundsquare"
                 android:gravity="left|center_vertical"
@@ -199,7 +183,7 @@
                 android:gravity="center"
                 android:src="@drawable/whiteroundsquare"
                 android:text="Login"
-                android:onClick="goToThirdActivity"
+                android:onClick="goTo7thActivity"
                 android:textColor="#50C2C9"
                 android:textStyle="bold"
                 android:textSize="20dp"
@@ -209,9 +193,9 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/buttonPassword"
+                android:id="@+id/signup"
                 android:layout_width="104dp"
-                android:layout_height="30dp"
+                android:layout_height="50dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:clickable="true"
@@ -220,9 +204,10 @@
                 android:textColor="#157177"
                 android:textSize="15sp"
                 android:textStyle="bold"
+                android:onClick="goTo3rdActivity"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.605"
+                app:layout_constraintHorizontal_bias="0.7"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.974" />
@@ -237,6 +222,7 @@
                 android:textColor="#FFFFFF"
                 android:textSize="15sp"
                 android:textStyle="bold"
+                android:onClick="goTo5thActivity"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
@@ -246,6 +232,7 @@
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     </LinearLayout>
 </ScrollView>

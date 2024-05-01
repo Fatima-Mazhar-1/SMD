@@ -212,8 +212,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="parent"
                 app:layout_constraintVertical_bias="0.69" />
-
-
             <EditText
                 android:id="@+id/nameinput"
                 android:layout_width="345dp"
@@ -344,11 +342,6 @@
                 app:layout_constraintHorizontal_bias="0.6"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-
-
-
-
         </androidx.constraintlayout.widget.ConstraintLayout>
-
     </LinearLayout>
 </ScrollView>
